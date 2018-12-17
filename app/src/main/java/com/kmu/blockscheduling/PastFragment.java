@@ -9,6 +9,6 @@ import android.view.ViewGroup;
 public class PastFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup contatiner, Bundle savedInstanceStace) {
-        return inflater.inflate(R.layout.current_fragment, contatiner, false);
+        return inflater.inflate(R.layout.past_fragment, contatiner, false);
     }
 }
