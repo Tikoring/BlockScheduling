@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("현재 스케쥴"));
         tabLayout.addTab(tabLayout.newTab().setText("이전 스케쥴"));
